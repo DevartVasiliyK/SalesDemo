@@ -2,7 +2,7 @@
   [ProductID] [int] IDENTITY,
   [Name] [nvarchar](50) NOT NULL,
   [Price] [money] NULL,
-  [Image] [image] NULL,
+  [Image] [varbinary](MAX) NULL,
   [ShippingMethod] [varchar](50) NULL,
   [Size] [varchar](20) NULL,
   [WeightUnit] [varchar](5) NULL,
