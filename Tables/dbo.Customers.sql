@@ -18,6 +18,7 @@
   [TwitterID] [varchar](50) NULL,
   [SkypeID] [varchar](50) NULL,
   [Photo] [image] NULL,
+  [CustomerCard] [varchar](50) NULL,
   CONSTRAINT [CustomerPK] PRIMARY KEY CLUSTERED ([CustomerID])
 )
 ON [PRIMARY]
